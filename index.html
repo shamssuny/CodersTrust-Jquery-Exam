@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Class 18 exam Jquery js</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<style type="text/css">
+		.main{
+			text-align: center;
+			width: 100%;
+			margin:0 auto;
+			/*border:2px solid red;*/
+		}
+		.main input{
+			width: 50%;
+			padding: 10px;
+			margin: 10px;
+			font-weight: bold;
+			border-radius: 8px;
+			background-color: lightgrey;
+		}
+
+		.no{display: none;}
+
+		.red{
+			color:red;
+		}
+	</style>
+</head>
+<body>
+
+
+
+
+
+<div class="container well">
+	<div class="row">
+		
+		<div class="main col-md-12">
+			
+			<form action="" method="POST">
+				<input type="text" name="username" id="user" placeholder="Input User Name">
+				<p id="tuser"></p>
+				<input type="email" name="mail" id="mail" placeholder="Enter Email">
+				<p id="tajaira"></p>
+				<input type="password" name="pass" id="pass" placeholder="Enter Password"><br>
+				<p id="tpass"></p>
+				<button class="btn btn-success" id="btn" >Register</button>
+			</form>
+
+			<span class="red">*All fields must me fill up to enable Register button</span><br>
+			<span class="red">*Username and Password length mus be equal or greater than 6.</span>
+
+		</div>
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery library start -->
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="js/app.js"></script>
+<!-- jquery library end -->
+</body>
+</html>
